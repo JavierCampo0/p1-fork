@@ -1,0 +1,43 @@
+En esta primera práctica se estudian los comándos básicos planteados, explicando su significado y uso.
+
+1. git clone: 
+   - Significado: Copia un repositorio existente, en este caso el fork creado en GitHub, a la máquina local.
+   - Uso: Obtiene una copia local del repositorio.
+   
+2. git status: 
+   - Significado: Muestra el estado del repositorio. Informa sobre archivos que han sido cambiados, añadidos o pendientes de commit.
+   - Uso: Revisa el estado actual del repositorio.
+
+3. git add: 
+   - Significado: Añade cambios en los archivos al área de staging. Prepara los archivos para que sean incluidos en el próximo commit.
+   - Uso: Seleccionar los cambios a incluir en el próximo commit.
+
+4. git commit: 
+   - Significado: Realiza un commit de los cambios que están en el área de staging. Esto registra tus cambios en el historial del
+   repositorio. La traduccion literal es comprometerse; como su nombre indica es decir que estás satisfecho con el estado actual
+   de los archivos como para que sean incluidos en el próximo push.
+   - Uso: Guardar los cambios en tu repositorio local.
+
+5. git push: 
+   - Significado: Sube tus commits locales al repositorio remoto. Esto actualiza el repositorio en GitHub con tus cambios locales.
+   - Uso: Envía tus cambios al repositorio remoto (el fork en GitHub). Los nuevos archivos sobreescriben los previos.
+
+6. git checkout: 
+   - Significado: Cambia de una rama a otra en tu repositorio local.
+   - Uso: Para volver a la rama original.
+   
+
+Además de esos comandos hay otros que también son utilizados comúnmente y resultan imprescindibles para la gestión de proyectos de github.
+
+7. git branch:
+   - Significado: Listar, crear o borrar ramas. Sin argumentos, lista las ramas locales y muestra cuál es la actual.
+   - Uso: Crear nuevas ramas, lo que es muy útil para segmentar los dferentes propósitos o grupos de desarrollo, o para visualizar las ramas existentes.
+
+8. git merge:
+   - Significado: Fusiona una rama en otra. Comúnmente se usa para combinar los cambios de una rama de desarrollo o característica en la rama principal (master o main).
+   - Uso: Integrar los cambios de una rama a otra después de terminar el trabajo en esa rama.
+
+9. git pull:
+   - Significado: Actualiza tu rama local con la última versión de su rama correspondiente en el repositorio remoto.
+   - Uso: Sobreescribe tus archivos locales con los de la rama remota. Conviene hacerlo antes de escribir código para diferir lo menos posible con la rama
+   remota y así evitar conflictos con commits posteriores.
